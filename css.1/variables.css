@@ -1,0 +1,15 @@
+:root {
+    --grey: rgb(54, 58, 56);
+    --darkgreen: #232728;
+    --green: #334139;
+    --blue: rgb(66, 87, 99);
+    --purple: #433A3F;
+    --red: #805858;
+    --beige: #CEBD9C;
+    --tan: #ffffff;
+
+    --myFont: 'Monoton', cursive;
+    --logoFont: 'Libre Barcode 128 Text', cursive;
+
+
+}
