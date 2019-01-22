@@ -40,7 +40,7 @@
 }
 
 .card-group {
-    margin-top: 120px;
+    margin-top: 50px;
     
     /* border: solid 2px black; */
 }
@@ -80,11 +80,7 @@ figcaption img {
     color: rgb(103, 0, 103);
 }
 
-.jumbotron1 .linkedIn {
-    margin-top: 10px;
-    height: 30px;
-    width: 30px;
-}
+
 
 
 
