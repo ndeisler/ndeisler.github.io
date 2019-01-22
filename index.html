@@ -8,14 +8,46 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
     <link rel="stylesheet" href="css.1/main.css" type="text/css">
 </head>
 <body class="body">
+
     
+    
+        <nav id="navBar"class="navbar navbar-fixed-top navbar-expand-md navbar-dark bg-primary">
+                <div class="d-flex w-50 order-0">
+                    <a class="navbar-brand mr-1" href="#home">ND</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse justify-content-center order-2" id="collapsingNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutMe">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#myProjects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                                <a class="nav-link" href="resume.html" target="_blank">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <span class="navbar-text small text-truncate mt-1 w-50 text-right order-1 order-md-last"></span>
+            </nav>
 
-
-    <nav id="navBar" class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- <nav id="navBar" class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-light">
+        
         <a class="navbar-brand" href="#home">ND</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -36,14 +68,13 @@
                 <a class="nav-link" href="#contactMe">Contact Me</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" target="blank">Resume</a>
+                <a class="nav-link" href="resume.html" target="blank">Resume</a>
                 </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#" target="blank">LinkedIn</a>
-                </li>
+           
             </ul>
         </div>
-    </nav>
+        
+    </nav> -->
 
     <div class="parallax1">
         <div id="home"></div>
@@ -57,32 +88,36 @@
     </div> -->
 
 
-    <div>
-        <div class="jumbotron2">
-            <div id="aboutMe"></div>
-            <h1 class="h1">ABOUT ME: <br>Peace Among Worlds</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Velit, corrupti eveniet blanditiis maiores alias quis ipsa 
-                iste voluptatum fugiat, ab animi, atque ullam. 
-                Architecto cum veniam earum voluptatum magni voluptatibus?</p>
-            <hr>
-            
-            <hr>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Veniam, tempore incidunt quibusdam voluptas animi officia 
-                cumque sit reprehenderit eos ipsam qui porro similique 
-                voluptates ab est expedita doloremque? Modi, reprehenderit!</p>
-            <hr>
-            
-            <hr>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Dicta quisquam iure, alias est ullam et provident recusandae, 
-                voluptatibus laborum quia nisi! Animi sunt facilis quas neque, 
-                aspernatur repudiandae odio magnam.</p>
-            <hr>
-            
-
-            <hr class="my-4">
+    <div id="aboutMe">
+        <div class="jumbotron1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12">
+                        
+                        <h1 class="h1">About Me...</h1>
+                        <p>Hi, I'm Nathan Deisler, but everyone calls me Nate. I'm currently learning JavaScript and front end 
+                            website development at <a href="https://www.elevenfifty.org/" target="_black">ElevenFifty Code Academy</a>. I enjoy solving challenging problems for people.
+                            When not writing code or being creative, I spend a lot of time in nature whether it's playing fetch with dogs or backpacking
+                            around the country. I love learning, reading, and a challenging workout. 
+                        </p>
+                        <hr>
+                        <p>Here on my website, I have some of the <a href="https://github.com/" target="_blank">code I have written</a> as well as some other <a href="#">creative projects</a>. Need someone to solve your 
+                            problems with amazing, functional web based software? Just <a href="#contact">contact me</a> or feel free to connect with me on 
+                            <a href="https://www.linkedin.com/in/deisler-nate-833350a6" target="_blank">LinkedIn</a> or download my old fashion <a href="resume.html" target="_blank">resume</a>.
+                        </p>
+                        <hr>
+                    </div>
+                    
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="text-center">
+                            <figure>
+                                <img class="me" src="assets/images/me3.png">
+                                <figcaption><img src="assets/images/sign.png"></figcaption>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
             
         </div>
 
@@ -139,6 +174,7 @@
 
     <div>
 
+
         <div class="jumbotron2">
             <div id="myProjects"></div>
             <h1 class="h1">Projects</h1>
@@ -146,45 +182,49 @@
             <div class="card-group">
                 <div class="card border-light">
                     
-                    <a href="https://codepen.io/ndeisler/pen/aPKZoX"><img class="card-img-top" src="./assets/images/morty.png" alt="Card image cap"></a>
+                    <a href="https://codepen.io/ndeisler/pen/aPKZoX" target="_blank"><img class="card-img-top" src="./assets/images/morty.png" alt="Card image cap"></a>
                     <div class="card-body">
-                        <a class="btn btn-secondary" href="https://codepen.io/ndeisler/pen/aPKZoX" role="button">CSS Creature</a>
+                        <a href="https://codepen.io/ndeisler/pen/aPKZoX"><p>CSS creature</p></a>
                     </div>
                 </div>
                 <div class="card border-light">
-                    <a href="https://ndeisler.github.io/tutorial-website/"><img class="card-img-top" src="./assets/images/javascript.png" alt="Card image cap"></a>
+                    <a href="https://ndeisler.github.io/tutorial-website/"target="_blank"><img class="card-img-top" src="./assets/images/javascript.png" alt="Card image cap"></a>
                     <div class="card-body">
-                        <a class="btn btn-secondary" href="https://ndeisler.github.io/tutorial-website/" role="button">JS Tutorial Webpage</a>
+                        <a href="https://ndeisler.github.io/tutorial-website/">JS Tutorial Webpage</a>
+                        <!-- <a class="btn btn-secondary" href="https://ndeisler.github.io/tutorial-website/" target="_blank" role="button">JS Tutorial Webpage</a> -->
                     </div>
                 </div>
-                <!-- <div class="card">
-                    <a href="https://blizzard-api-goldbadge.firebaseapp.com/"><img class="card-img-top" src="https://mbtskoudsalg.com/images/diablo-3-logo-png-3.png" alt="Card image cap"></a>
+                <div class="card border-light">
+                    <a href="" target="_blank"><img class="card-img-top" src="./assets/images/portalcopy.png" alt="Card image cap"></a>
                     <div class="card-body">
-                        <a class="btn btn-secondary" href="https://blizzard-api-goldbadge.firebaseapp.com/" role="button">Blizzard API</a>
+                        <a href="" target="_blank"><p>Rick and Morty API</p></a>
+                        <!-- <a class="btn btn-secondary" href="" target="_blank" role="button">Rick and Morty API</a> -->
                     </div>
                 </div>
-                <div class="card">
-                    <a href="https://blizzard-api-goldbadge.firebaseapp.com/"><img class="card-img-top" src="https://mbtskoudsalg.com/images/diablo-3-logo-png-3.png" alt="Card image cap"></a>
+                <div class="card border-light">
+                    <a href="https://github.com/ndeisler/challenges" target="_blank"><img class="card-img-top" src="./assets/images/github_600870.png" alt="Card image cap"></a>
                     <div class="card-body">
-                        <a class="btn btn-secondary" href="https://blizzard-api-goldbadge.firebaseapp.com/" role="button">Blizzard API</a>
+                        <a href="https://github.com/ndeisler/challenges"><p>Gold Badege Challenges</p></a>
+                        <!-- <a class="btn btn-secondary" href="https://github.com/ndeisler/challenges" target="_blank" role="button">Gold Badge Challenges</a> -->
                     </div>
                 </div>
-                </div> -->
+                </div>
             </div>
     </div>
 
 
     <!--CONTACT INFO-->
-    <secton id="#contact">
+    <secton id="contact">
         <div class="container-fluid">
-            <h2 class="text-center text-uppercase">Contact Me</h2>
+            
                 <div class="row">
                     <div class="col-3"></div>
                     <div class="col">
+                        <h2 class="text-center">Contact Me</h2>
                         <form action="https://formspree.io/nate.deisler@gmail.com" method="POST">
-                            <div class="control-group ">
+                            <div class="control-group">
                                 <div class="form-group">
-                                    <label>Name</label>
+                                    <label>What is your name?</label>
                                     <input
                                         type="text"
                                         class="form-control"
@@ -198,7 +238,7 @@
                             </div>
                             <div class="control-group">
                                 <div class="form-group">
-                                    <label>Email Address</label>
+                                    <label>Gonna need that email address</label>
                                     <input
                                         type="email"
                                         class="form-control"
@@ -215,7 +255,7 @@
                                     <textarea
                                         class="form-control"
                                         rows="7"
-                                        placeholder="Your Message"
+                                        placeholder="Say what you need to say!"
                                         id="message"
                                         required
                                         data-validation-required-message="Please leave a message"
@@ -231,15 +271,11 @@
                         </form> 
                     </div>
                     <div class="col-3"></div>
+                    
                 </div>
                 <footer id="footer">
-                    <div class="row">
-                        <div class="col-12">
-                            <div>Nate Deisler &copy; 2019</div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
+                        <p>Nate Deisler &copy; 2019</p>
+                </footer>
         </div>
     </secton>
 
@@ -286,7 +322,14 @@
 
 
 
-
+    <!-- <div class="parallax3">
+        <div class="quoteBox">
+            <h1 class="drQuote">"The woods are lovely, dark and deep. But I have promises to keep, and miles to go before I sleep."</h1>
+            <h3 class="h3poem">Robert Frost</h3>
+            
+            
+        </div>
+    </div> -->
     
 
 

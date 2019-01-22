@@ -2,20 +2,49 @@
     background-image: linear-gradient(45deg, rgb(26, 25, 25), var(--blue)) !important;
     color: black !important;
     box-shadow: 1px 1px var(--grey) !important;
-    display: fixed;
+    display: fixed !important;
 }
+
+.navbar button {
+    float: right !important;
+}
+
 
 .navbar-brand {
     font-family: var(--myFont);
     color: white !important;
+    text-shadow: 2px 2px rgb(164, 112, 112);
     
     
 }
+
+.nav-item a {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-shadow: 1px 1px rgb(164, 112, 112);
+    /* padding: 10px; */
+}
+/* .nav-item a:hover {
+    color: rgb(114, 114, 114) !important;
+} */
+
 
 .nav-link {
     color: white !important;
 
+
 }
 .navbar-brand {
     font-size: 1.4em !important;
+    
+}
+.navbar .nav-item {
+    margin-left: 20px;
+}
+
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
 }

@@ -1,9 +1,90 @@
-
 .jumbotron2 {
-    padding: 5%;
+    padding: 10%;
     text-align: center;
-    width: 60%;
-    left: 19%;
+    width: 100%;
+    /* left: 19%; */
     position: relative;
+    /* border: solid 1px black; */
+    background-image: url("../assets/images/1557bfdc3dc1522.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+
+.jumbotron2 .card img {
+    height: 150px;
+    width: 150px;
+    /* margin-left: 40px;
+    margin-right: 40px; */
+
+}
+.jumbotron2 .card-group {
+    /* border: solid 1px black; */
+    /* background: transparent; */
+    /* background-color: rgba(255, 255, 255, 0.5) !important; */
+   
+    width: 100%;
+}
+.jumbotron2 .card-group a {
+    text-decoration: none;
+    font-size: 1.2em;
+    /* font-weight: bold; */
+    color: rgb(25, 25, 75);
+    /* text-shadow: 1px 1px rgb(164, 112, 112); */
+}
+.jumbotron2 .card {
+    padding-top: 30px;
+    background-color: transparent;
+}
+
+.card-group {
+    margin-top: 120px;
+    
+    /* border: solid 2px black; */
+}
+.h1 {
+    /* margin: 20px; */
+    
+}
+
+.jumbotron1 {
+    background-image: url("../assets/images/1557bfdc3dc1522.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10%;
+    text-align: left;
+    width: 100%;
+    /* left: 19%; */
+    position: relative;
+    font-weight: bold;
+}
+
+
+.jumbotron1 .me {
+    width: 250px;
+    height: 250px;
+}
+
+
+figcaption img {
+    height: 80px;
+    width: 200px;
+}
+
+.jumbotron1 a {
+    text-decoration: none;
+    color: rgb(103, 0, 103);
+}
+
+.jumbotron1 .linkedIn {
+    margin-top: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+
 

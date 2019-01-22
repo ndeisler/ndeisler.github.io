@@ -24,6 +24,16 @@
 }
 
 #footer {
+    color: white;
+    text-align:center;
     margin-top: 20px;
     padding: 10px;
 }
+
+/* .parallax3 {
+    background-image: url("../assets/images/IMG_1481.JPG");
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
