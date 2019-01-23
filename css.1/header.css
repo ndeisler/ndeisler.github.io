@@ -28,8 +28,12 @@
 .parallax2 {
     background-image: url("../assets/images/QKmdeSJeLY-EMAej2DnAeP88DhkzPpgRhYaglP62UxE.jpg");
     height: 70vh;
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
