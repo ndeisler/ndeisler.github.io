@@ -10,12 +10,18 @@
 .navbar button {
     float: right !important;
 }
+.pull-right {
+    float: right !important;
+    position: relative !important;
+    left: 70vw;
+}
+
 
 
 .navbar-brand {
     font-family: var(--myFont);
     color: white !important;
-    text-shadow: 2px 2px rgb(164, 112, 112);
+    text-shadow: 3px 3px rgb(164, 112, 112);
     
     
 }
