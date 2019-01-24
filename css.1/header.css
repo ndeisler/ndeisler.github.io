@@ -43,10 +43,20 @@
 }
 
 .parallaxh2 {
-    color: var(--tan);
+    /* color: var(--tan); */
     text-align: center;
     /* font-family: 'Oleo Script', cursive; */
     font-size: 200%;
     text-shadow: 2px 2px 2px var(--darkgreen);
 }
 
+
+
+@media screen and (max-width: 1030px) {
+    .parallax1 {
+      background-attachment: scroll;
+    }
+    .parallax2 {
+        background-attachment: scroll;
+    }
+  }

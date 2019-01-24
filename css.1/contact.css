@@ -9,7 +9,7 @@
 
 .container-fluid {
     margin-top: 20px !important;
-    background-image: linear-gradient(rgb(101, 101, 101), rgb(31, 31, 31)) !important;
+    background-image: linear-gradient(45deg, var(--grey), var(--darkgreen)) !important;
     /* background-image: linear-gradient()) !important; */
 
 }
@@ -25,12 +25,15 @@
 }
 
 #footer {
-    color: white;
+    color: white !important;
     text-align:center;
     margin-top: 20px;
     padding: 10px;
 }
 
+#contact {
+    color: white !important;
+}
 /* .parallax3 {
     background-image: url("../assets/images/IMG_1481.JPG");
     height: 600px;
