@@ -1,8 +1,33 @@
 
 .card {
     border: 0px solid transparent !important;
+    width: 100%;
+    
 }
 
+@media (min-width: 576px) {
+.card-group>.card {
+    -ms-flex: 1 0 0%;
+    flex: none;
+    margin-bottom: 0;
+}
+
+
+@media screen and (max-width: 800px) {
+    .card-group>.card {
+    
+        flex: 1 0 50% !important;
+        margin-bottom: 0;
+        width: 40% !important;
+    }
+}
+
+@media screen and (max-width: 2000px) {
+    .card {
+        width: 33% !important;
+        
+    }
+}
 
 /* *, ::after, ::before {
     box-sizing: border-box;
