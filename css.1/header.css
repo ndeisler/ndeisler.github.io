@@ -1,5 +1,5 @@
 .parallax1 {
-    background-image: url("../assets/images/IMG_0518\ 2.JPG");
+    background-image: url("../assets/images/Redrock.jpg");
     height: 95vh;
     position: relative;
     padding-top: 200px;
@@ -30,7 +30,7 @@
 }
 
 .parallax2 {
-    background-image: url("../assets/images/waterfall.png");
+    background-image: url("../assets/images/waterfall.jpg");
     height: 80vh;
     position: relative;
     padding-top: 200px;
