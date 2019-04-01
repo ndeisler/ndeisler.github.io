@@ -15,6 +15,9 @@
     position: relative !important;
     left: 70vw;
 }
+#toggles p {
+    display: none;
+}
 
 
 
