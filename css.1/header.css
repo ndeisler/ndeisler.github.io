@@ -9,8 +9,18 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
-
+.parallax_cards {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 100px;
+}
+.parallax1 img {
+    width: 100%;
+    height: 100%;
+}
 .parallaxh1 {
     color: var(--tan);
     text-align: center;
